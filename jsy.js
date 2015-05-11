@@ -39,10 +39,15 @@ Array.prototype.inArray = function (value) {
 
 // test if the string is an Integer
 String.prototype.isInt = function () {
-    return this % 1 === 0;
+    return this % 1 === 0  && !this.isEmpty();
 }
 
 // test if the string is Float
 String.prototype.isFloat = function () {
-    return this === Number(this) && this % 1 !== 0
+    return this === Number(this) && this % 1 !== 0  && !this.isEmpty();
 }
+
+// test if the string is empty
+ String.prototype.isEmpty = function() {
+    return (this.length === 0 || !this.trim());
+};
