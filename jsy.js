@@ -1,10 +1,8 @@
 /*
  * jsy JavaScript Library v0.0.1
- * http://getjsy.com/
+ * https://github.com/labidiaymen/jsy
  * Author Labidi Aymen
  * Released under the MIT license
- * http://getjsy.com/license
- * ChangeLog http://getjsy.com/changelog
  * Copyright 2015
  *
  */
