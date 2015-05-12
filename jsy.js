@@ -45,7 +45,23 @@ String.prototype.isFloat = function () {
     return this === Number(this) && this % 1 !== 0  && !this.isEmpty();
 }
 
+// test if the Number is equal to x
+Number.prototype.equal = function (x) {
+    return this == x ;
+}
+
+// test if the String is equal to x
+String.prototype.equal = function (x) {
+    return this == x ;
+}
+
 // test if the string is empty
  String.prototype.isEmpty = function() {
     return (this.length === 0 || !this.trim());
+};
+
+Object.prototype.getName = function() { 
+   var funcNameRegex = /function (.{1,})\(/;
+   var results = (funcNameRegex).exec((this).constructor.toString());
+   return (results && results.length > 1) ? results[1] : "";
 };
