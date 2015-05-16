@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Jsy make Javascript coding more fun
 There is a difference between readble code and non readble, it's easly to read and memory, Jsy make your code clean and readble.
 
@@ -335,7 +334,3 @@ _jsy(randomumber).ifEqual(9).then(function(){
 	console.log("end")
 });
 ```
-=======
-# jsy
-A lightweight JavaScript Library contains the missing javascript functions, and make your code readable
->>>>>>> 7be84123eec964143fea91a933962980cd46ece2
