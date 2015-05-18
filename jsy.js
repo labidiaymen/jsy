@@ -29,7 +29,7 @@ var JSY, _jsy;
                     alert(s)
                 else
                     alert(this.var)
-            else if (typeof this.condition != 'undefined')
+            else if (typeof this.condition == 'undefined')
                 if (s)
                     alert(s)
                 else
@@ -38,6 +38,11 @@ var JSY, _jsy;
         },
         log: function(s) {
             if (this.condition)
+                if (s)
+                    console.log(s)
+                else
+                    console.log(this.var)
+             else if (typeof this.condition == 'undefined')
                 if (s)
                     console.log(s)
                 else
