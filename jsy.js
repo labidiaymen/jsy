@@ -1,5 +1,5 @@
 /*
- * jsy JavaScript Library v0.0.12
+ * jsy JavaScript Library v0.0.13
  * https://github.com/labidiaymen/jsy
  * Author Labidi Aymen
  * Released under the MIT license
@@ -16,10 +16,10 @@ var JSY, _jsy;
         this.author = 'Labidi Aymen';
         this.var = o;
         this.lastresult = "";
-        this.version = '1.0.1';
+        this.version = '0.0.13';
         return this;
     };
-    var allPrototypes = ['number', 'string', 'array', 'boolean'];
+    var allPrototypes = ['number', 'string', 'array', 'boolean', 'object'];
     // Expose the prototype object via JSY.fn
     JSY.fn = JSY.prototype = {
         // API Methods
@@ -179,6 +179,21 @@ var JSY, _jsy;
             this.condition = this.lengthBetween(min, max);
             return this;
         },
+        contain: function(s){
+            if (this.getType() == "string")
+                return this.var.indexOf(s) > -1;
+            else if (this.getType() == "array")
+                for(var i = 0; i < this.var.length; i++) {
+                    if(this.var[i] === s) {
+                        return true;
+                    }
+                }
+        return false;
+        },
+        ifContain:function (s) {
+            this.condition = this.contain(s);
+            return this;
+        }
     };
 
 }());
