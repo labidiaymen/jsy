@@ -30,6 +30,7 @@ var email= "labidiaymen@outlook.com";
 _jsy(email).ifisEmail().log('valid email');
 ```
 
+Questions ?  contact [@labidiaymen](https://twitter.com/labidiaymen)
 
 ##Documentation
 
