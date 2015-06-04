@@ -31,7 +31,7 @@ _jsy(email).ifisEmail().log('valid email');
 ```
 ##Installation
 
-```javascript
+```html
 <script src="//cdn.jsdelivr.net/jsy/0.0.13/jsy.min.js"></script>
 ```
 
