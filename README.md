@@ -29,6 +29,11 @@ Even more :
 var email= "labidiaymen@outlook.com";   
 _jsy(email).ifisEmail().log('valid email');
 ```
+##Installation
+
+```javascript
+<script src="//cdn.jsdelivr.net/jsy/0.0.13/jsy.min.js"></script>
+```
 
 Questions ?  contact [@labidiaymen](https://twitter.com/labidiaymen)
 
@@ -275,7 +280,7 @@ var x = 8 ;
 _jsy(x).alert();
 //alert equal if x is equal to 8
 _jsy(x).ifEqual(8).alert('equal');
-//alert 8 if x is equak to 8
+//alert 8 if x is equal to 8
 _jsy(x).ifEqual(8).alert();
 ```
 
@@ -291,7 +296,7 @@ var name = "jhon" ;
 _jsy(name ).log();
 //log to console equal if name is equal to "jhon"
 _jsy(name).ifEqual("jhon").log('equal');
-//log to console "jhon" if name is equak to "jhon"
+//log to console "jhon" if name is equal to "jhon"
 _jsy(name).ifEqual("jhon").log();
 ```
 
