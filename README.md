@@ -1,4 +1,6 @@
 ### Jsy make Javascript coding more fun
+
+[![Join the chat at https://gitter.im/labidiaymen/jsy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/labidiaymen/jsy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 There is a difference between readble code and non readble, it's easly to read and memory, Jsy make your code clean and readble.
 
 Exemple : 
