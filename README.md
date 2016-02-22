@@ -1,6 +1,4 @@
 ### Jsy make Javascript coding more fun
-
-[![Join the chat at https://gitter.im/labidiaymen/jsy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/labidiaymen/jsy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 There is a difference between readble code and non readble, it's easly to read and memory, Jsy make your code clean and readble.
 
 Exemple : 
@@ -31,13 +29,7 @@ Even more :
 var email= "labidiaymen@outlook.com";   
 _jsy(email).ifisEmail().log('valid email');
 ```
-##Installation
 
-```html
-<script src="//cdn.jsdelivr.net/jsy/0.0.13/jsy.min.js"></script>
-```
-
-Questions ?  contact [@labidiaymen](https://twitter.com/labidiaymen)
 
 ##Documentation
 
@@ -282,7 +274,7 @@ var x = 8 ;
 _jsy(x).alert();
 //alert equal if x is equal to 8
 _jsy(x).ifEqual(8).alert('equal');
-//alert 8 if x is equal to 8
+//alert 8 if x is equak to 8
 _jsy(x).ifEqual(8).alert();
 ```
 
@@ -298,7 +290,7 @@ var name = "jhon" ;
 _jsy(name ).log();
 //log to console equal if name is equal to "jhon"
 _jsy(name).ifEqual("jhon").log('equal');
-//log to console "jhon" if name is equal to "jhon"
+//log to console "jhon" if name is equak to "jhon"
 _jsy(name).ifEqual("jhon").log();
 ```
 
