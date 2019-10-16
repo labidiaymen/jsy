@@ -1,5 +1,5 @@
 /*
- * jsy JavaScript Library v0.0.15
+ * jsy JavaScript Library v0.0.13
  * https://github.com/labidiaymen/jsy
  * Author Labidi Aymen
  * Released under the MIT license
